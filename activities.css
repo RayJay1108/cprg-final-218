@@ -22,7 +22,7 @@ header li {
     list-style: none;
 }
  
-.toggle {
+#toggle {
     display: none;
 }
 
@@ -109,15 +109,17 @@ footer {
     nav {
         display: none;
         position: absolute;
-        width: 97%;
+        width: 100%;
       
+        
     }
 
     nav.active {
         display: block;
+      
     }
 
-    .toggle {
+    #toggle {
         background-color: f8ebc3;
         width: 100%;
         padding: 3em;

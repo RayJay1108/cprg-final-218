@@ -19,8 +19,8 @@ less.addEventListener('click', function(){
 });
 
 
-const toggleBTN = document.querySelector(".toggle"); 
-const mainMenu = document.querySelector(".navigation");
+const toggleBTN = document.getElementById("toggle"); 
+const mainMenu = document.getElementById("navigation");
 
 toggleBTN.addEventListener('click', function() {
     toggleBTN.classList.toggle('open');
@@ -60,6 +60,7 @@ hide3.addEventListener('click', function(){
 
 
 /* ----- Activities Page -------- */
+
 
 
 

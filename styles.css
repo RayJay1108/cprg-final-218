@@ -30,7 +30,7 @@ header li {
     
 }
 
-.toggle {
+#toggle {
     display: none;
 }
 
@@ -182,7 +182,7 @@ footer {
         display: block;
     }
 
-    .toggle {
+    #toggle {
         background-color: 668ca1 ;  
         width: 100%;
         padding: 3em;
