@@ -37,8 +37,7 @@ nav ul {
 }
 
 nav ul li {
-    background-color: rgb(162, 207, 216);
-    border: 1px solid rgb(95, 124, 130);
+    background-color: peachpuff;
     padding: 1.5em;
    
     
@@ -113,7 +112,7 @@ h2 {
 }
 
 footer {
-    background-color: rgb(162, 207, 216);
+    background-color: peachpuff;
     padding: 3em;
     margin: 0 auto;
     text-align: center;
@@ -149,10 +148,11 @@ footer {
     }
 
     #toggle {
-        background-color: 668ca1 ;  
+        background-color: peachpuff ;  
         width: 100%;
         padding: 3em;
         display: block;
+        border: none;
        
     }
 
@@ -175,7 +175,7 @@ footer {
     }
  
     nav ul {
-     background-color:rgb(162, 207, 216) ;
+     background-color: peachpuff;
      
     }
  
@@ -220,7 +220,7 @@ footer {
    }
 
    nav ul {
-    background-color:rgb(162, 207, 216) ;
+    background-color:peachpuff ;
     
    }
 
