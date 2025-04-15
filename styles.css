@@ -12,7 +12,7 @@ Header {
 /* -----Hero page -------*/
 
 header #hero {
-    padding: 15em;
+    padding: ;
     background-image: url(./Images/hero\ iphone.webp);
     opacity: 90%;
     display: flex;
@@ -31,7 +31,7 @@ header li {
     
 }
 
-#toggle {
+.toggle {
     display: none;
 }
 
@@ -89,6 +89,8 @@ main {
 
 /*  main stuf*/
 
+
+
 #main {
     padding: 2em;
     box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
@@ -97,6 +99,8 @@ main {
 #main h2 {
     font-size: 2em;
 }
+
+
 
 /* --------Reccomendations ----------*/
 
@@ -165,8 +169,7 @@ footer {
     }
 
     header #hero {
-        padding: 11em;
-        
+        padding: 4em;
         display: grid;
     }
 
@@ -182,7 +185,7 @@ footer {
         display: block;
     }
 
-    #toggle {
+    .toggle {
         background-color: 668ca1 ;  
         width: 100%;
         padding: 3em;
@@ -190,8 +193,6 @@ footer {
        
     }
 
- 
- 
 
 }
 
@@ -202,7 +203,7 @@ footer {
        }
 
        header #hero {
-        padding: 10em;
+        padding: 7em;
         background-image: url(./Images/hero\ ipad.webp);
         opacity: 90%;
         display: grid;

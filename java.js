@@ -59,4 +59,7 @@ hide3.addEventListener('click', function(){
 });
 
 
+/* ----- Activities Page -------- */
+
+
 
