@@ -22,7 +22,7 @@ header li {
     list-style: none;
 }
  
-#toggle {
+.toggle {
     display: none;
 }
 
@@ -117,7 +117,7 @@ footer {
         display: block;
     }
 
-    #toggle {
+    .toggle {
         background-color: f8ebc3;
         width: 100%;
         padding: 3em;
