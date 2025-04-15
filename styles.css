@@ -12,7 +12,6 @@ Header {
 /* -----Hero page -------*/
 
 header #hero {
-    padding: ;
     background-image: url(./Images/hero\ iphone.webp);
     opacity: 90%;
     display: flex;
@@ -143,8 +142,6 @@ main {
    
 }
 
-
-
 #more-testimonials {
     display: none;
 }
@@ -238,8 +235,6 @@ footer {
    #logo {
     width: 800px;
    }
-
-
 
     nav ul li {
         display: inline-block;

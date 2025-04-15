@@ -4,19 +4,12 @@
 
 /* ---------header-------------*/
 
-Header {
-    
-    
-}
 
 #logo {
     width: 500px;
 }
 
-#weather {
-    color: white;
-    font-size: 1em;
-}
+
 header #hero-news {
     background-image: url(./Images/hotel2\ iphone.jpg);
     padding: 4em;
@@ -34,10 +27,7 @@ header li {
 }
 
 /*--------- Navigation------------*/
-nav {
-       
-    
-}
+
 
 nav ul {
     list-style: none;
@@ -85,31 +75,6 @@ h3 {
 }
 
 
-/* Sections */
-#activities-excursions {
-    
-}
-
-#adventure {
-    
-}
-
-#local {
-    
-}
-
-#cultural {
-    
-}
-
-#wildlife {
-    
-}
-
-#booking {
-    
-}
-
 em {
     text-align: center;
     padding-bottom: 4em;
@@ -135,7 +100,7 @@ footer {
     }
 
     header #hero-news {
-        display: grid;
+       
     }
 
     main {
@@ -178,8 +143,6 @@ footer {
     
     }
 
-
-  
     
     #logo {
         width: 700px;
