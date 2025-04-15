@@ -11,7 +11,7 @@ Header {
 
 header #hero {
     padding: 8em;
-    background-image: url(/images/photos/dining\ iphone.jpg);
+    background-image: url(./Images/dining\ iphone.webp);
     display: flex;
     justify-content: center;
 }
@@ -138,7 +138,7 @@ footer {
     }
 
     header #hero {
-        background-image: url(/images/photos/dining\ ipad.jpg);
+        background-image: url(./Images/dining\ ipad.webp);
         padding: 13em;
     }
 
@@ -182,7 +182,7 @@ footer {
    }
 
    header #hero {
-    background-image: url(/images/photos/dining\ full.jpg);
+    background-image: url(./Images/dining\ full.webp);
     padding: 17em;
    }
 
