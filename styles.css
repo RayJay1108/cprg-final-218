@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ---------header-------------*/
+
+Header {
+    position: relative;
+    justify-content: space-between;
+}
+
+/* -----Hero page -------*/
+
+header #hero {
+    padding: 15em;
+    background-image: url(./Images/hero\ iphone.webp);
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo {
+    width: 500px;
+}
+
+
+header li {
+    list-style: none;
+    color: white;
+    
+}
+
+#toggle {
+    display: none;
+}
+
+
+
+
+
+/*--------- Navigation------------*/
+
+nav {
+    background-color: 668ca1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav h2 {
+    padding-left: 1em;
+   
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+
+    
+}
+
+nav ul li {
+    padding: 1em;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+      
+}
+
+nav li a:hover {
+    color: white;
+    font-size: 150%;
+}
+
+
+/* ----------Main -----/---------*/
+
+main {
+    padding: 3em;
+    display: grid;
+    gap: 2em;
+}
+
+
+
+/*  main stuf*/
+
+#main {
+    padding: 2em;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+#main h2 {
+    font-size: 2em;
+}
+
+/* --------Reccomendations ----------*/
+
+#recommendations {
+    padding: 2em;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+#recommendations img {
+    width: 300px;
+}
+
+#ocean {
+    display: none;
+}
+
+#swing {
+    display: none;
+}
+
+#garden {
+    display: none;
+}
+
+
+
+/* ---------guests --------------*/
+
+#guests {
+
+    padding: 2em;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+#guests p {
+    border: 1px solid black;
+    padding: 2em;
+    max-width: 768px;
+    
+   
+}
+
+
+
+#more-testimonials {
+    display: none;
+}
+
+
+/*------footer-------*/
+
+footer {
+    background-color: rgb(162, 207, 216);
+    padding: 3em;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        flex-direction: column;
+       text-align: center;
+    }
+
+    header #hero {
+        padding: 11em;
+        
+        display: grid;
+    }
+
+    
+    nav {
+        display: none;
+        position: absolute;
+        width: 100%;
+      
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    #toggle {
+        background-color: 668ca1 ;  
+        width: 100%;
+        padding: 3em;
+        display: block;
+       
+    }
+
+ 
+ 
+
+}
+
+@media screen and (min-width: 768px ) {
+    header {
+        text-align: center;
+    
+       }
+
+       header #hero {
+        padding: 10em;
+        background-image: url(./Images/hero\ ipad.webp);
+        opacity: 90%;
+        display: grid;
+       }
+
+       #logo {
+        width: 700px;
+       }
+
+ 
+        nav ul li {
+            display: inline-block;
+            border: none;
+            margin: 1em;
+        }
+
+    
+
+}
+
+@media screen and (min-width: 1000px) {
+   header {
+    text-align: center;
+   }
+
+   header #hero {
+    padding: 17em;
+    background-image: url(./Images/hero\ full.webp);
+    display: grid;
+   }
+
+   #logo {
+    width: 800px;
+   }
+
+
+
+    nav ul li {
+        display: inline-block;
+        border: none;
+        margin: 1em;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1.75fr 1fr;
+
+    }
+
+
+    #recommendations {
+        grid-row: span 2;
+       
+    }
+   
+}
+   
+   
+
+   
