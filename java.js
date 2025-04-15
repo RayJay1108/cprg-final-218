@@ -19,8 +19,8 @@ less.addEventListener('click', function(){
 });
 
 
-const toggleBTN = document.getElementById('toggle'); 
-const mainMenu = document.getElementById('navigation');
+const toggleBTN = document.querySelector(".toggle"); 
+const mainMenu = document.querySelector(".navigation");
 
 toggleBTN.addEventListener('click', function() {
     toggleBTN.classList.toggle('open');
