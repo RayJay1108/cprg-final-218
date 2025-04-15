@@ -10,7 +10,7 @@ Header {
 
 header #hero {
     padding: 4em;
-    background-image: url(/images/photos/accomodation\ iphone.jpg);
+    background-image: url(./Images/accomodation\ iphone.webp);
     display: flex;
     justify-content: center;
 }
@@ -154,7 +154,7 @@ footer {
     }
 
     header #hero {
-        background-image: url(/images/photos/accomodation\ ipad.jpg);
+        background-image: url(./Images/accomodation\ ipad.webp);
     }
 
     #logo {
@@ -192,7 +192,7 @@ footer {
    }
 
    header #hero {
-    background-image: url(/images/photos/accomodation\ full.jpg);
+    background-image: url(./Images/accomodation\ full.webp);
     padding: 15em;
    }
 

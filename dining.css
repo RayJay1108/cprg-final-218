@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ---------header-------------*/
+
+Header {
+    text-align: center;
+
+}
+
+header #hero {
+    padding: 8em;
+    background-image: url(/images/photos/dining\ iphone.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 500px;
+}
+
+header li {
+    list-style: none;
+}
+
+#toggle {
+    display: none;
+}
+ 
+/*--------- Navigation------------*/
+
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    
+}
+
+nav ul li {
+    background-color: rgb(162, 207, 216);
+    border: 1px solid rgb(95, 124, 130);
+    padding: 1.5em;
+   
+    
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+      
+}
+
+nav li a:hover {
+    color: white;
+    font-size: 2em;
+
+}
+
+/*----------Main----------*/
+
+main {
+    display: grid;
+    gap: 3em;
+    
+}
+
+section {
+    padding: 3em;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+/* ----section -----*/
+
+#top {
+    
+    text-align: center;
+    box-shadow: none;
+}
+
+
+
+/* -------Footer--------*/
+
+footer {
+    background-color: rgb(162, 207, 216);
+    padding: 3em;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    margin-top: 3em;
+
+}
+
+
+/* -----Mediia Quarries ------*/
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+       text-align: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        width: 100%;
+      
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    #toggle {
+        background-color:rgb(162, 207, 216);  
+        width: 100%;
+        padding: 3em;
+        display: block;
+       
+    }
+
+ 
+
+}
+
+@media screen and (min-width: 768px) {
+    header {
+     text-align: center;
+    }
+
+    header #hero {
+        background-image: url(/images/photos/dining\ ipad.jpg);
+        padding: 13em;
+    }
+
+    #logo {
+        width: 700px;
+    }
+ 
+    nav ul {
+     background-color:rgb(162, 207, 216) ;
+     
+    }
+ 
+     nav ul li {
+         display: inline-block;
+         border: none;
+         margin: 1em;
+     }
+ 
+     main {
+         display: grid;
+         grid-template-columns: 1fr 1fr; 
+         gap: 2em;
+ 
+     }
+ 
+     :first-child {
+         grid-column: span 2;
+     }
+
+     :last-child {
+        grid-column: span 2;
+
+    }
+ 
+ }
+
+
+@media screen and (min-width: 1000px) {
+   header {
+    text-align: center;
+   }
+
+   header #hero {
+    background-image: url(/images/photos/dining\ full.jpg);
+    padding: 17em;
+   }
+
+   #logo {
+    width: 1000px;
+   }
+
+   nav ul {
+    background-color:rgb(162, 207, 216) ;
+    
+   }
+
+    nav ul li {
+        display: inline-block;
+        border: none;
+        margin: 1em;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 2em;
+
+    }
+
+    :first-child {
+        grid-column: span 2;
+    }
+
+    :last-child {
+        grid-column: span 2;
+
+    }
+
+}
