@@ -84,7 +84,7 @@ em {
 /*------footer-------*/
 
 footer {
-    background-color: rgb(162, 207, 216);
+    background-color: f8ebc3 ;
     padding: 3em;
     margin: 0 auto;
     text-align: center;
@@ -124,6 +124,7 @@ footer {
         width: 100%;
         padding: 3em;
         display: block;
+        border: none;
     }
 
  
@@ -138,7 +139,7 @@ footer {
 
     header #hero-news {
         background-image: url(./Images/hotel2\ ipad.webp);
-        padding: 11em;
+       padding: 5em;
     
     }
 
@@ -186,8 +187,9 @@ footer {
    }
 
    header #hero-news {
-    padding: 20em;
+    
     background-image: url(./Images/hotel2\ full.webp);
+    padding: 10em;
 
    }
 

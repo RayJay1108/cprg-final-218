@@ -43,8 +43,7 @@ nav ul {
 }
 
 nav ul li {
-    background-color: rgb(162, 207, 216);
-    border: 1px solid rgb(95, 124, 130);
+    background-color: rgb(145, 68, 67) ;
     padding: 1.5em;
    
     
@@ -101,7 +100,7 @@ section {
 /* -------Footer--------*/
 
 footer {
-    background-color: rgb(162, 207, 216);
+    background-color: rgb(145, 68, 67) ;
     padding: 3em;
     margin: 0 auto;
     text-align: center;
@@ -137,10 +136,11 @@ footer {
     }
 
     #toggle {
-        background-color:rgb(162, 207, 216);  
+        background-color:rgb(145, 68, 67) ;  
         width: 100%;
         padding: 3em;
         display: block;
+        border: none;
        
     }
 
@@ -162,7 +162,7 @@ footer {
     }
  
     nav ul {
-     background-color:rgb(162, 207, 216) ;
+     background-color:rgb(145, 68, 67)  ;
      
     }
  
@@ -186,14 +186,14 @@ footer {
  }
 
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
    header {
     text-align: center;
    }
 
    header #hero {
-    background-image: url(./Images/accomodation\ full.webp);
-    padding: 15em;
+    background-image: url(./Images/accomodation\ full.jpg);
+    padding: 5em;
    }
 
    #logo {
@@ -201,7 +201,7 @@ footer {
    }
 
    nav ul {
-    background-color:rgb(162, 207, 216) ;
+    background-color: rgb(145, 68, 67) ;
     
    }
 
